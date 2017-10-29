@@ -1,0 +1,119 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="caixa">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="~/images/pc5.jpg" alt="ASP.NET" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <div class="caixa">
+                        <p>
+                            Computador Gráfico Intel Core i7, 16GB Ram, HD 1TB, GT 730 2GB, Windows
+                            <a class="btn btn-danger" asp-page="/Pc1">
+                                R$ 3.292,92
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="~/images/pc2.jpg" alt="Visual Studio" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <div class="caixa">
+                        <p>
+                            Computador Gamer Neologic Moba Box Intel I3-7100, GTX 1050, 1tb, 8gb,Win 7- NLI67214
+                            <a class="btn btn-danger" asp-page="/Pc2">
+                                R$ 2.447,14
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="~/images/pc3.jpg" alt="Package Management" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <div class="caixa">
+                        <p>
+                            Computador Gamer Com Monitor 15 Amd Quad Core A8 7600 8GB Hyperx HD 1TB Radeon R7 3GREEN Titan
+                            <a class="btn btn-danger" asp-page="/Pc3">
+                                R$ 1.990,00
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="~/images/pc4.jpg" alt="Microsoft Azure" class="img-responsive" />
+                <div class="carousel-caption" role="option">
+                    <div class="caixa">
+                        <p>
+                            Computador Gamer Neologic Intel I5-7400 Gtx 1050TI 8Gb 1Tb Monitor 21,5 NLI68705
+                            <a class="btn btn-danger" asp-page="/Pc4">
+                                R$ 3.539,90
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Proximo</span>
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="caixa">
+        <h2>Computador C3Tech:</h2>
+        <ul>
+            <li>Na hora de adquirir um gabinete e preciso pensar em diversos fatores como refrigeracao componentes internos,
+            alta tecnologia e claro, design sofisticado para combinar com o seu monitor.</li>
+            <li>E todos esses quesitos estao garantidos nos gabinetes C3Tech. 
+            Aproveite para melhorar a organizacao dos componentes internos de sua maquina com mais praticidade, simplicidade e rapidez</li>
+        </ul>
+    </div>
+    <div class="caixa">
+        <h2>Computador MobaBox:</h2>
+        <ul>
+            <li>O Pc Gamer Neologic Moba Box é especialmente desenvolvido para jogos como League of Legends, Dota 2 e Heroes of The Storm</li>
+            <li>dentre vários outros, com ótima resolução e desempenho.
+            Seus Componentes são cuidadosamente selecionados e testados para oferecer o melhor FPS aos seus jogadores.</li>
+        </ul>
+    </div>
+    <div class="caixa">
+        <h2>Computador 3Green Titan:</h2>
+        <ul>
+            <li> Computador 3Green Titan Gamer p2844 possui memória RAM Kingston HyperX de 8GB,</li>
+            <li>HD de 1 TB, APU AMD A8 7600 Quad Core, placa Mãe Asrock, placa de vídeo AMD Radeon R7 graphics,</li>
+            <li>Fonte de 500W, gabinete gamer com FAN LEDs inclusos, mouse gamer, teclado gamer e headset gamer. </li>
+        </ul>
+    </div>
+    <div class="caixa">
+        <h2>GeForce GTX 1050:</h2>
+        <ul>
+            <li>Todo mundo merece jogar de um jeito incrível. Por isso, existe a rápida e potente GeForce GTX 1050.</li>
+            <li>
+                Agora, você pode transformar seu PC em uma verdadeira plataforma de games, com a tecnologia da NVIDIA Pascal
+                --a mais avançada arquitetura de placa de vídeo já criada. Ela vem com as tecnologias inovadoras NVIDIA Game Ready,
+                que fazem todo gamer vivenciar os últimos lançamentos na mais suprema glória.
+            </li>
+            <li><a href="https://www.elo7.com.br/quindimateliecriativo/loja">Compre do site oficial da Quindim</a></li>
+        </ul>
+    </div>
+</div>
+

@@ -1,0 +1,31 @@
+
+            if ((valorPago <= preco)&&(pagamento == "dinheiro"))
+	        {
+             double desconto = (preco *10 / 100 - preco) * -1;
+             Console.WriteLine("Pagamento a Vista em Dinheiro!");
+             Console.WriteLine("Desconto de 10%!");
+             Console.WriteLine($"{preco} = {desconto}");
+            }
+            else
+
+            if ((valorPago <= preco)&&(pagamento == "cartao"))
+            {
+                Console.WriteLine("Pagamento a Vista no Cartao!");
+                Console.WriteLine("Sem Juros!");
+                Console.WriteLine($"{preco}");
+            }
+            else
+
+            if ((valorPago < preco) && (pagamento == "parcelado"))
+            {
+                for (int i = 1; i <= 12; i++)
+                {
+                    double juros = (preco * 2 / 100 * 10 + preco) * -1;
+                    
+                    Console.WriteLine("Pagamento Parcelado!");
+                    Console.WriteLine("Juros de 2% ao Mes!");
+                    Console.WriteLine($"{preco} = {juros}");
+
+                    preco = juros;
+                }
+            }

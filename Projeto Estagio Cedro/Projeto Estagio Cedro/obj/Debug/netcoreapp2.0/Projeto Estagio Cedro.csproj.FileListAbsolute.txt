@@ -1,0 +1,11 @@
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\bin\Debug\netcoreapp2.0\Projeto Estagio Cedro.deps.json
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\bin\Debug\netcoreapp2.0\Projeto Estagio Cedro.runtimeconfig.json
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\bin\Debug\netcoreapp2.0\Projeto Estagio Cedro.runtimeconfig.dev.json
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\bin\Debug\netcoreapp2.0\Projeto Estagio Cedro.dll
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\bin\Debug\netcoreapp2.0\Projeto Estagio Cedro.pdb
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\obj\Debug\netcoreapp2.0\Projeto Estagio Cedro.csprojResolveAssemblyReference.cache
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\obj\Debug\netcoreapp2.0\Projeto Estagio Cedro.csproj.CoreCompileInputs.cache
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\obj\Debug\netcoreapp2.0\Projeto Estagio Cedro.AssemblyInfoInputs.cache
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\obj\Debug\netcoreapp2.0\Projeto Estagio Cedro.AssemblyInfo.cs
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\obj\Debug\netcoreapp2.0\Projeto Estagio Cedro.dll
+D:\Unipam\Cedro\Web ASP.Net Core\Projeto Estagio Cedro\Projeto Estagio Cedro\obj\Debug\netcoreapp2.0\Projeto Estagio Cedro.pdb

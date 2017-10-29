@@ -1,0 +1,22 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contato";
+}
+
+<div class="caixa">
+    <h2>@ViewData["Title"]</h2>
+    <h3>@Model.Message</h3>
+
+    <address>
+        Yurir Rodrigues de Sousa<br />
+        Rua Onaldo Lima, 471<br />
+        <abbr title="Visual Studio não presta">Telefone:</abbr>
+        99665-2367
+    </address>
+
+    <address>
+        <strong>Suporte:</strong> <a href="yurirsousa@yahoo.com.br">yurirsousa@yahoo.com.br</a><br />
+        <strong>Comercial:</strong> <a href="receptor851@gmail.com">receptor851@gmail.com</a>
+    </address>
+</div>
