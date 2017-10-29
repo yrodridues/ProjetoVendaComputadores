@@ -1,0 +1,2 @@
+# ProjetoVendaComputadores
+Aplication .NetCore(#C)
